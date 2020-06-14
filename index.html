@@ -3,14 +3,23 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<div id="displayCurrentSong"></div>
-<button id="playButton">Play</button>
-<button id="pauseButton">Pause</button>
-<button id="previousButton">Previous</button>
-<button id="nextButton">Next</button>
+<div id="jukeboxContainer">
+	<div id="displayCurrentSong">Play a Song</div>
+	<div id="audioControlsContainer">
+		<button id="previousButton">Previous</button>
+		<button id="playButton">Play</button>
+		<button id="pauseButton">Pause</button>
+		<button id="nextButton">Next</button>
+		<button id="shuffleSongs">Shuffle</button>
+	</div>
+</div>
+
+<a href="https://audionautix.com/" class="musicLicenseCredit" target="_blank">Music by Audionautix.com</a>
 
 <script type="text/javascript" src="index.js"></script>
 </body>
