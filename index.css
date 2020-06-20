@@ -67,6 +67,10 @@ border-radius: 5px;
 	background-color: #54c5a7;
 }
 
+.icon {
+    margin-left: 0.4rem;
+}
+
 .musicLicenseCredit {
 	font-family: 'Varela Round', sans-serif;
 	font-size: .8rem;
@@ -89,7 +93,7 @@ border-radius: 5px;
 	}
 }
 
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 500px) {
 	#audioControlsContainer {
 		flex-direction: column;
 	}
